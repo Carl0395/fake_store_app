@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:fake_store_app/models/product_model.dart';
-import 'package:fake_store_app/repository/products_repository.dart';
+import 'package:fake_store_app/repository/fake_store_repository.dart';
 
-final repository = ProductsRepository();
+final repository = FakeStoreRepository();
 void main(List<String> arguments) async {
   runApp();
 }

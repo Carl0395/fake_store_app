@@ -7,7 +7,7 @@ import 'package:fake_store_app/util/failures.dart';
 import 'package:fake_store_app/util/http_helper.dart';
 import 'package:fake_store_app/util/routes.dart';
 
-class ProductsRepository {
+class FakeStoreRepository {
   Future<Either<Failure, List<ProductModel>>> getProducts() async {
     final res = await HttpHelper.get(Routes.products);
 
